@@ -1,6 +1,6 @@
 package patrones;
 
-public class ConexionEU implements Conexion{
+public class ConexionEU implements ConexionUsb{
 
 	@Override
 	public void cargar() {
@@ -10,7 +10,7 @@ public class ConexionEU implements Conexion{
 	}
 
 	@Override
-	public void ConexionUSB() {
+	public void transferencia() {
 		// TODO Auto-generated method stub
 		System.out.println("Conectado utilizando conexion USB. ");
 		

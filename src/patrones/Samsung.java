@@ -3,12 +3,12 @@ package patrones;
 public class Samsung extends Dispositivo {
 	
 	private CamaraVideo camara;
-	private Conexion conexion;
+	private ConexionUsb conexion;
 	private int precio;
 	private String color;
 	
 	
-	public Samsung(CamaraVideo _camara, Conexion _conexion, int _precio, String _color ){
+	public Samsung(CamaraVideo _camara, ConexionUsb _conexion, int _precio, String _color ){
 		
 		this.camara = _camara;
 		this.conexion = _conexion;

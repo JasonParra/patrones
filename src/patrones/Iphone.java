@@ -3,12 +3,12 @@ package patrones;
 public class Iphone extends Dispositivo{
 	
 	private CamaraFoto camara;
-	private Conexion conexion;
+	private ConexionUsb conexion;
 	private int precio;
 	private String color;
 	
 	
-	public Iphone(CamaraFoto _camara, Conexion _conexion, int _precio, String _color){
+	public Iphone(CamaraFoto _camara, ConexionUsb _conexion, int _precio, String _color){
 		
 		this.camara = _camara;
 		this.conexion = _conexion;
